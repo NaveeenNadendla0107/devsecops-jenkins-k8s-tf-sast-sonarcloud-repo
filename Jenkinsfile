@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools { 
-        maven 'Maven_3_9_6'  
+        maven 'Maven_3.9.6'  
     }
    stages{
     stage('CompileandRunSonarAnalysis') {
